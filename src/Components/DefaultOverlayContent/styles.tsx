@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Heading = styled.div`
     margin-top: 16.5vh;
+    width: 100%;
     text-align: center;
     > h1 {
         font-weight: 500;
@@ -60,6 +61,15 @@ export const Button = styled.div`
         & + button {
             margin: 10px 0 0;
         }
-        
+
+    }
+
+    @media (min-width: 600px) {
+        flex-direction: row;
+        margin-bottom: 90px;
+
+       > button + button {
+        margin: 0 0 0 10px;
+       }
     }
 `

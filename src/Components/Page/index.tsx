@@ -2,8 +2,9 @@ import React from 'react'
 
 import DefaultOverlayContent from '../DefaultOverlayContent'
 import { ModelsWrapper, ModelSection } from '../Model'
+import UniqueOverlay from '../UniqueOverlay'
 
-import { Container } from '../DefaultOverlayContent/styles'
+import { Container, Spacer } from './styles'
 
 const Page: React.FC = () => {
     return (
@@ -20,7 +21,7 @@ const Page: React.FC = () => {
                         'Model Seven',
                     ].map(modelName => (
                         <ModelSection
-                        key={modelName}
+                            key={modelName}
                             className='colored'
                             modelName={modelName}
                             overlayNode={
@@ -33,6 +34,10 @@ const Page: React.FC = () => {
                     ))}
 
                 </div>
+
+                <Spacer />
+
+                <UniqueOverlay />
             </ModelsWrapper>
         </Container>
     )
