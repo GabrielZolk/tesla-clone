@@ -11,7 +11,7 @@ interface ModelsContext {
     registeredModels: CarModel[]
     registerModel: (model: CarModel) => void
     unregisterModel: (modelName: string) => void
-    getModelByname: (modelName: string) => CarModel | null
+    getModelByName: (modelName: string) => CarModel | null
 }
 
 export default React.createContext<ModelsContext>({} as ModelsContext)
