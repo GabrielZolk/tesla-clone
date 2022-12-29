@@ -31,10 +31,9 @@ export const Logo = styled(LogoSVG)`
 `
 
 export const Burger = styled(BurgerSVG)`
-    width: 24px;
+    width: 32px;
     height: 24px;
     cursor: pointer;
-    
     padding-right: 5px;
 `
 

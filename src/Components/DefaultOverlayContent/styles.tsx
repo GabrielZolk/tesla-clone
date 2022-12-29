@@ -17,13 +17,18 @@ export const Heading = styled.div`
         font-weight: 500;
         font-size: 40px;
         line-height: 48px;
-        color: #393c41
+        color: white;
+        background-color: #00e9ff;
+        border-radius: 20px;
     }
     > h2 {
         font-weight: normal;
         font-size: 14px;
         line-height: 20px;
-        color: #5c5e62;
+        color: #00e9ff;
+        border-radius: 20px;    
+        background-color: white;
+        border-radius: 20px; 
     }
 `
 
