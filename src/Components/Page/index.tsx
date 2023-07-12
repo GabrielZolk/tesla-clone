@@ -12,7 +12,7 @@ const Page: React.FC = () => {
             <ModelsWrapper>
                 <div>
                     {[
-                        'Gol Quadrado',
+                        'Skyline',
                         'Audi A3 2000',
                         'Civic Hatch EK9',
                         'Santana 1980',
